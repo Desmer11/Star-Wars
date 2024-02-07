@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<h1>----------------- Star Wars API  -----------------</h1>
+<hr>
+<h1></h1>
+
+
+<div>
+    <img src="images/logo.png" alt="starWarsLogo">
+</div>
+
+<hr>
+<br>
+<br>
+<br>
+
+<div id="buttonBox">
+    
+    <button id="buttonPeoplePrevious" class="NPbutton corners">Previous</button>
+    <button id="buttonPeopleNext" class="NPbutton corners">Next</button>
+    
+    <button id="buttonPeople"><img src="images/cosmonaut.svg" alt=""></button>
+
+    <button id="buttonShips"><img src="images/rocket.svg" alt=""></button>
+    <button id="buttonShipsPrevious" class="NPbutton corners">Previous</button>
+    <button id="buttonShipsNext" class="NPbutton corners">Next</button>
+
+<div id="divPageNum">
+    <p id="peoplePage" class="pageNum" style="text-align: left;">PAGE</p>
+    <p id="shipPage" class="pageNum" style="text-align: right;">PAGE</p>
+</div>
+
+    <hr>
+    
+
+
+<div id="peopleTableDiv">
+    <div id="pagesButtonsPeople" style="text-align: left;"></div>
+    <table id="tablePeople" class="row column" border="2" cellspacing="20" cellpadding="10" >
+    <caption><b>People </b></caption>
+    
+    <thead>
+        <th scope="col">Name</th>
+        <th scope="col">Height ( cm )</th>
+        <th scope="col">Mass ( kg )</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Birth Year</th>
+        <th scope="col">Appearances</th>
+    </thead>
+    <tbody>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+        </tr>
+    </tbody>
+    </table>
+    
+</div>
+
+<div id="shipsTableDiv">
+    <table id="tableSpaceships" class="row column" border="2" cellspacing="20" cellpadding="10" >
+    <caption><b>Spaceships </b></caption>
+
+    <thead>
+        <th scope="col">Name</th>
+        <th scope="col">Model</th>
+        <th scope="col">Manufacturer</th>
+        <th scope="col">Credits</th>
+        <th scope="col">Crew Capacity</th>
+        <th scope="col">Class</th>
+    </thead>
+    <tbody>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js" ></script> 
+</body>
+</html>

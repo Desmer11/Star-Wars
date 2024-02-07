@@ -1,0 +1,90 @@
+body {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+}
+h1 {
+  color: white;
+}
+
+td{
+  background-color: black;
+  color: yellow
+  ;
+}
+th{
+  background-color: black;
+  color: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a two-column layout */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#buttonBox {
+  height: 100vh;
+  width: 100vw;
+}
+.NPbutton {
+  background-color: #e7dd10;
+  border: none;
+  color: black;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+.corners {
+  border-radius: 50px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.pageNum {
+  color:#e7dd10;
+  font-size: x-large;
+  margin: 2%;
+}
+.divPageNum {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
